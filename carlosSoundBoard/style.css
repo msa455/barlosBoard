@@ -1,0 +1,42 @@
+body{
+	width: 80%;
+
+	background-image:url("images/background4.png");
+	background-size: cover;
+	-webkit-transition:background-image 1s ease-in-out;
+	transition: background-image 1s ease-in-out;
+	margin: 0 auto;
+	
+}
+
+.container img{
+	width:100%;
+	height: auto;
+}
+
+.header{
+	height:15%;
+	width:95%;
+	text-align: center;
+	padding-left:32px;
+	font-family: Cambria;
+}
+
+.header h1{
+	font-size: 100px;
+}
+
+.row{
+	text-align: center
+}
+.soundButton{
+	display: inline-block;
+	height:15%;
+	width:15%;
+	margin:5px;
+}
+
+.soundButton img{
+	border:5px solid #eff5ff;	
+	border-radius:5px;
+}

@@ -1,0 +1,75 @@
+<html>
+	<head>
+	<link rel="stylesheet" href="style.css">
+
+	
+
+	<body>
+		<div class="container">
+			<div class="header">
+				<img src="images/barlosBoard2Transparent.png">
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class=" soundButton" id="sound1">
+					<a onclick="playSound(1);">
+						<img src="images/image1.png">
+				</div>
+				<div class=" soundButton" id="sound2">
+				<a onclick="playSound(1);">
+						<img src="images/image1.png">
+				</div>
+				<div class=" soundButton" id="sound3">
+				<a onclick="playSound(1);">
+						<img src="images/image1.png">
+				</div>
+			</div>
+
+			<div class="row">
+				<div class=" soundButton" id="sound1">
+					<a onclick="playSound(1);">
+						<img src="images/image1.png">
+				</div>
+				<div class=" soundButton" id="sound2">
+				<a onclick="playSound(1);">
+						<img src="images/image1.png">
+				</div>
+				<div class=" soundButton" id="sound3">
+				<a onclick="playSound(1);">
+						<img src="images/image1.png">
+				</div>
+			</div>
+
+			<div class="row">
+				<div class=" soundButton" id="sound1">
+					<a onclick="playSound(1);">
+						<img src="images/image1.png">
+				</div>
+				<div class=" soundButton" id="sound2">
+				<a onclick="playSound(1);">
+						<img src="images/image1.png">
+				</div>
+				<div class=" soundButton" id="sound3">
+				<a onclick="playSound(1);">
+						<img src="images/image1.png">
+				</div>
+			</div>
+
+		<div>
+
+
+
+	</body>
+
+	<script>
+		var audio1 = new Audio("haha.mp3");
+		var audioFiles = [audio1]
+
+
+		function playSound(indexNum){
+			audioFiles[indexNum - 1].play();
+		}
+	</script>
+
+</html>
